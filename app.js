@@ -24,14 +24,14 @@ if (num1 > num2 && num1 > num3) {
   console.log(num1, "არის ყველაზე მაღალი");
 } else if (num2 > num1 && num2 > num3) {
   console.log(num2, "არის ყველაზე მაღალი");
-} else if (num3 > num1 && num3 > num2) {
+} else {
   console.log(num3, "არის ყველაზე მაღალი");
 }
 if (num1 < num2 && num1 < num3) {
   console.log(num1, "არის ყველაზე დაბალი");
 } else if (num2 < num1 && num2 < num3) {
   console.log(num2, "არის ყველაზე დაბალი");
-} else if (num3 < num1 && num3 < num2) {
+} else {
   console.log(num3, "არის ყველაზე დაბალი");
 }
 
